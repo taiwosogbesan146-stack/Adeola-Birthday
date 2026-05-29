@@ -26,6 +26,11 @@ html {
   scroll-behavior: smooth;
 }
 
+main{
+ width:min(100% -32px, 1400px);
+ margin: 0 auto;
+}
+
 body {
   min-height: 100vh;
   margin: 0;
