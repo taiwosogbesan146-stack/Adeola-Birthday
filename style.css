@@ -140,7 +140,7 @@ h3 {
 }
 
 .hero-message {
-  width: min(580px, 70%);
+  width: min(580px, 100%);
   margin: 26px 0 0;
   color: rgb(51 24 50 / 82%);
   font-size: clamp(1.05rem, 2vw, 1.35rem);
