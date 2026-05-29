@@ -114,7 +114,10 @@ h1,
 h2,
 h3,
 p {
-  overflow-wrap: anywhere;
+p {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
 }
 
 h1,
@@ -140,11 +143,12 @@ h3 {
 }
 
 .hero-message {
- 
+  width: min(670px, 100%);
   margin: 26px 0 0;
   color: rgb(51 24 50 / 82%);
   font-size: clamp(1.05rem, 2vw, 1.35rem);
   line-height: 1.7;
+  box-sizing: border-box;
 }
 
 .hero-actions {
